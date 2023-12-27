@@ -34,5 +34,15 @@ header .container{
 #Cta{
     background-color: #fcf5dc;
     color: black;
-    padding: 20px
+    padding: 20px;
+}
+
+.cashback{
+    padding: 20px;
+    display: inline;
+}
+
+.cashback li{
+    display: inline;
+    padding: 30px;
 }
