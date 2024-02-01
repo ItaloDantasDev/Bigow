@@ -1,3 +1,9 @@
+a{
+    font-weight: bolder ;
+    text-decoration:none;
+    color: #464F34;
+}
+
 *{
     margin: 0;
     padding: 0;
@@ -15,8 +21,12 @@ header nav li{
     margin-left: 16px;
 }
 
-a{
-    color: aliceblue;
+.lojas-pagina-inicial a{
+  color: #464F34;  
+  font: bold;
+  border-style: groove;
+  padding: 15px;
+  background-color:#DCD5B9 ;
 }
 
 .container{
@@ -25,10 +35,22 @@ a{
     margin: 0 auto;
 }
 
+.container a{
+    color: #464F34;
+    padding: 5px;
+    margin-top: 100px;
+    border-style: outset;
+    border-color: #464F34 ;
+}
+
 header .container{
     display: flex;
     align-items: center;
     justify-content: space-between;
+}
+
+.pesquisa{
+    margin-left: 22px;
 }
 
 #Cta{
@@ -37,12 +59,33 @@ header .container{
     padding: 20px;
 }
 
+.Loja-do-dia{
+    font-style: bold;
+    background-color:#677747 ;
+    padding: 10px;
+
+    a{
+        color: #fcf5dc;
+        border-style: inherit;
+        background-color: #464F34;
+        padding: 2px;;
+    }
+}
+
+
 .cashback{
     padding: 20px;
     display: inline;
+    padding-right: 10px;
 }
 
 .cashback li{
     display: inline;
     padding: 30px;
+}
+
+.sobre{
+    font-style: bold;
+    background-color:#677747 ;
+    padding: 10px;
 }
