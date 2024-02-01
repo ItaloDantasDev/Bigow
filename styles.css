@@ -29,13 +29,13 @@ header nav li{
   background-color:#DCD5B9 ;
 }
 
-.container{
+.cabecalho{
     max-width: 1280px;
     width: 100%;
     margin: 0 auto;
 }
 
-.container a{
+.cabecalho a{
     color: #464F34;
     padding: 5px;
     margin-top: 100px;
@@ -43,7 +43,7 @@ header nav li{
     border-color: #464F34 ;
 }
 
-header .container{
+header .cabecalho{
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -83,10 +83,6 @@ header .container{
 .cashback li{
     display: inline;
     padding: 30px;
-    
-    a{
-        border-radius: 10px;
-    }
 }
 
 .sobre{
