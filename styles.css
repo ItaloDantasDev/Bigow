@@ -60,6 +60,7 @@ header .container{
 }
 
 .Loja-do-dia{
+    border-radius: 10px;
     font-style: bold;
     background-color:#677747 ;
     padding: 10px;
@@ -68,7 +69,7 @@ header .container{
         color: #fcf5dc;
         border-style: inherit;
         background-color: #464F34;
-        padding: 2px;;
+        padding: 2px;
     }
 }
 
@@ -82,10 +83,15 @@ header .container{
 .cashback li{
     display: inline;
     padding: 30px;
+    
+    a{
+        border-radius: 10px;
+    }
 }
 
 .sobre{
     font-style: bold;
     background-color:#677747 ;
     padding: 10px;
+    border-radius: 10px;
 }
