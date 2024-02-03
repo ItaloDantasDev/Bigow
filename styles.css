@@ -24,23 +24,23 @@ header nav li{
 .lojas-pagina-inicial a{
   color: #464F34;  
   font: bold;
-  border-style: groove;
-  padding: 15px;
-  background-color:#DCD5B9 ;
+  border-style: inset;
+  padding: 20px;
+  background-color:white;
+  border-radius: 20px;
 }
 
 .cabecalho{
     max-width: 1280px;
     width: 100%;
     margin: 0 auto;
+    font-family: "Fredoka", sans-serif;
 }
 
 .cabecalho a{
     color: #464F34;
     padding: 5px;
     margin-top: 100px;
-    border-style: outset;
-    border-color: #464F34 ;
 }
 
 header .cabecalho{
@@ -55,21 +55,22 @@ header .cabecalho{
 
 #Cta{
     background-color: #fcf5dc;
-    color: black;
+    color: #464F34;
     padding: 20px;
+   
 }
 
 .Loja-do-dia{
-    border-radius: 10px;
+    
     font-style: bold;
-    background-color:#677747 ;
+    background-color:#44522a ;
     padding: 10px;
+    color: white;
 
     a{
-        color: #fcf5dc;
-        border-style: inherit;
-        background-color: #464F34;
-        padding: 2px;
+        color: #d3cfbf;
+        padding: 5px;
+        border-radius: 10px;
     }
 }
 
@@ -85,9 +86,22 @@ header .cabecalho{
     padding: 30px;
 }
 
+
+
+.cupons li{
+    margin-left: 30px;
+    border-radius: 10px;
+    border-style: groove;
+    display: inline;
+    padding: 20px;
+}
+
+/* border-style: ridge; */
+
 .sobre{
     font-style: bold;
-    background-color:#677747 ;
+    background-color:#44522a ;
     padding: 10px;
-    border-radius: 10px;
+    border-radius: 2px;
+    color: white;
 }
